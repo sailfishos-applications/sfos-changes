@@ -10,11 +10,11 @@ Licenses per packages (not necessarily conclusive, taken from 1.1.0.39 almost cl
 
 <br />
 
-## Non OSS packages
+## Non-OSS packages
 
 | **Name** | **Summary** | **License** | **Source** |
 | --- | --- | --- | --- |
-| **aliendalvik** | Myriad Alien Dalvik | Myriad Group AG. |     |
+| **aliendalvik** | Alien Dalvik - Android runtime environment | Myriad Group AG |     |
 | **all-translations-pack** | Collection of all translations in one binary rpm | Jolla |     |
 | **ambienced** | Ambience backend | TBD |     |
 | **ambient-icons-closed** | Icons for applications | Proprietary |     |
