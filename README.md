@@ -1,2 +1,2 @@
 # sfos-changes
-SailfihsOS' release notes and change-logs
+SailfishOS' release notes and change-logs
