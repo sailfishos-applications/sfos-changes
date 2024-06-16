@@ -1,16 +1,16 @@
 # SailfishOSS
+**[from the Mer Wiki](https://wiki.merproject.org/wiki/SailfishOSS)**
 
-From Mer Wiki
+<br />
 
-Jump to: [navigation](#column-one), [search](#searchInput)
+Licenses per packages (not necessarily conclusive, taken from 1.1.0.39 almost clean system), proprietary packages:<br />
+<sub>_This still needs some work, like assigning each openly licensed package with a source code repository. This will be a large task, but can be done if community really needs to know where the sources are._</sub>
 
-Licenses per packages (not necessarily conclusive, taken from 1.1.0.39 almost clean system), proprietary packages:
+[SailfishOS 1.1.1.27 "Vaarainjärvi"](https://wiki.merproject.org/wiki/SailfishOSS/1.1.1.27)
 
-This still needs some work, like assigning each openly licensed package with a source code repository. This will be a large task, but can be done if community really needs to know where the sources are.
+<br />
 
-[Vaarainjärvi](/wiki/SailfishOSS/1.1.1.27 "SailfishOSS/1.1.1.27")
-
-# Non OSS packages
+## Non OSS packages
 
 | **Name** | **Summary** | **License** | **Source** |
 | --- | --- | --- | --- |
@@ -135,7 +135,9 @@ This still needs some work, like assigning each openly licensed package with a s
 | **voicecall-ui-jolla** | Jolla Phone application | TBD |     |
 | **voicecall-ui-jolla-settings** | Setting page for jolla-voicecall | TBD |     |
 
-# OSS packages
+<br />
+
+## OSS packages
 
 | **Name** | **Summary** | **License** | **Source** |
 | --- | --- | --- | --- |
@@ -668,26 +670,26 @@ This still needs some work, like assigning each openly licensed package with a s
 | **zlib** | The zlib compression and decompression library | zlib and Boost | [https://git.merproject.org/mer-core/zlib](https://git.merproject.org/mer-core/zlib) |
 | **zypper** | Command line software manager using libzypp | GPL v2 or later | [https://git.merproject.org/mer-core/zypper](https://git.merproject.org/mer-core/zypper) |
 
-# Misc
+<br />
 
-Command for extraction (Non-OSS and OSS), used by locusf
+## Miscellaneous
 
-rpm -qa --queryformat '%{name}, %{version}, %{license}\\n \\n'|grep -e "Proprietary" -e "TBD" -e "TODO"
+Commands for extraction (non-OSS and OSS), used by _locusf_:
 
-rpm -qa --queryformat '> %{name}, %{version}, %{license}\\n'|grep -v -e "Proprietary" -e "TBD" -e "TODO"
+`rpm -qa --queryformat '%{name}, %{version}, %{license}\\n \\n'|grep -e "Proprietary" -e "TBD" -e "TODO"`
 
-Python script to parse data and format, used by SK\_work Will be pushed to github at some point.
+`rpm -qa --queryformat '> %{name}, %{version}, %{license}\\n'|grep -v -e "Proprietary" -e "TBD" -e "TODO"`
 
-  
+<br />
 
+Python script to parse data and format, used by _SK\_work_; will be pushed to GitHub at some point.
+```
 #!/usr/bin/python
 f = open("rpms", 'r')
-proprietary = \["Proprietary", "TBD", "TODO", "Nokia", "LICENSE", "Jolla", "Myriad Group AG.", "Other", "Proprietary, BSD"\]
+proprietary = ["Proprietary", "TBD", "TODO", "Nokia", "LICENSE", "Jolla", "Myriad Group AG.", "Other", "Proprietary, BSD"]
 
-  
-
-ossEntries = \[\]
-propEntries = \[\]
+ossEntries = []
+propEntries = []
 
 # Load old source entries
 sources = {}
@@ -696,11 +698,11 @@ for line in oss:
 	line = line.replace("**", "")**
 	splitted = line.split("||")
 	if len(splitted) == 4:
-		name = splitted\[0\].replace("|", "").strip()
-		source = splitted\[3\].strip()
+		name = splitted[0].replace("|", "").strip()
+		source = splitted[3].strip()
 		
 		if len(source) > 0:
-			sources\[name\] = source
+			sources[name] = source
 oss.close()
 
 print("Old sources found %s" % len(sources))
@@ -708,14 +710,14 @@ print("Old sources found %s" % len(sources))
 for line in f:
 	splitted = line.strip().split(';')
 	if len(splitted) == 4:
-		name = splitted\[0\]
-		license = splitted\[2\]
+		name = splitted[0]
+		license = splitted[2]
 		source = ""
 		if name in sources:
-			source = sources\[name\]
-		if "github.com/nemomobile" in splitted\[3\] or "github.com/sailfish" in splitted\[3\]:
-		    source = splitted\[3\]
-		entry = (splitted\[0\], splitted\[1\], license, source)
+			source = sources[name]
+		if "github.com/nemomobile" in splitted[3] or "github.com/sailfish" in splitted[3]:
+		    source = splitted[3]
+		entry = (splitted[0], splitted[1], license, source)
 		if not name.startswith("harbour"):
 			if license in proprietary:
 				propEntries.append(entry)
@@ -725,8 +727,8 @@ for line in f:
 		print(line)
 f.close()
 
-ossEntries = sorted(ossEntries, key=lambda entry: entry\[0\])
-propEntries = sorted(propEntries, key=lambda entry: entry\[0\])
+ossEntries = sorted(ossEntries, key=lambda entry: entry[0])
+propEntries = sorted(propEntries, key=lambda entry: entry[0])
 
 print("OSS packages found %s" % len(ossEntries))
 print("Proprietary packages found %s" % len(propEntries))
@@ -737,10 +739,11 @@ def writeFile(file, entries):
 	out.write(" ! **Name** !! **Summary** !! **License** !! **Source** \\n")
 	for entry in entries:
 		out.write(" |-\\n")
-		out.write(" | **" + entry\[0\] + "** || " + entry\[1\] + " || " + entry\[2\] + " || " + entry\[3\] + "\\n")
+		out.write(" | **" + entry[0] + "** || " + entry[1] + " || " + entry[2] + " || " + entry[3] + "\\n")
 	out.write(" |}\\n")
 	out.close()
 	
-
 writeFile("out-oss.txt", ossEntries)
 writeFile("out-prop.txt", propEntries)
+```
+
