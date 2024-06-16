@@ -674,7 +674,7 @@ Licenses per packages (not necessarily conclusive, taken from 1.1.0.39 almost cl
 
 ## Miscellaneous
 
-Commands for extraction (non-OSS and OSS), used by _locusf_:
+Commands for extraction (non-OSS and OSS), used by @locusf:
 
 `rpm -qa --queryformat '%{name}, %{version}, %{license}\\n \\n'|grep -e "Proprietary" -e "TBD" -e "TODO"`
 
@@ -682,7 +682,7 @@ Commands for extraction (non-OSS and OSS), used by _locusf_:
 
 <br />
 
-Python script to parse data and format, used by _SK\_work_; will be pushed to GitHub at some point.
+Python script to parse data and format, used by **SK\_work**; will be pushed to GitHub at some point.
 ```
 #!/usr/bin/python
 f = open("rpms", 'r')
@@ -746,4 +746,11 @@ def writeFile(file, entries):
 writeFile("out-oss.txt", ossEntries)
 writeFile("out-prop.txt", propEntries)
 ```
+
+<br />
+
+## Licence
+
+The content of this page is licensed under the **[CC-BY-3.0](http://creativecommons.org/licenses/by/3.0/legalcode)** licence.
+
 
