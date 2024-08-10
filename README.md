@@ -16,3 +16,5 @@ SailfishOS' release notes and change-logs
   [https://together.jolla.com/questions/scope:all/sort:age-desc/tags:developer,sdk/query:released/](https://together.jolla.com/questions/scope:all/sort:age-desc/tags:developer,sdk/query:released/)
 
 As I was originally gathering all SFOS changelogs to determine which packages appeared / vanished / were updated by which SFOS release, a excellent baseline for SFOS 1.1.0.39 is provided by [the SailfishOSS page on the MerProject Wiki](https://wiki.merproject.org/wiki/SailfishOSS), which also lists the licenses of all packages (proprietary or a specific FLOSS licence), which are installed by default.
+
+All SailishOS release version numbers and their release dates are listed at [whitesoft/sailversion](https://coderus.openrepos.net/whitesoft/sailversion) by [coderus](https://github.com/coderus).
