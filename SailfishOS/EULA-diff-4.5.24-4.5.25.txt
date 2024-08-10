@@ -1,0 +1,169 @@
+ Sailfish EULA
+ =============
+ 
+-*Last updated October 3, 2017*
++*Last updated March 1, 2024*
+ 
+ Sailfish OS Terms of Use
+ ------------------------
+@@ -12,20 +12,20 @@ Sailfish OS Terms of Use
+ Please review this agreement (the "Agreement") carefully before using
+ the Software. Because you need to accept these terms before using the
+ Software, we recommend you take your time reading through them to make
+-sure you are comfortable with them.  You agree to these terms by
++sure you are comfortable with them. You agree to these terms by
+ downloading or using Sailfish OS, any included additional components and
+ all documentation ("Software") or by clicking on the "Accept" button
+ next to this Agreement when downloading, installing and/or using the
+ Software.
+ 
+ Note that our Software is based on the great efforts and innovations of
+-the open source community. The core components of our software ("Free
+-Software") are all available as open source via various projects in
+-which we actively participate. We encourage you to also join those
+-projects and participate. Although our Software is subject to this
+-Agreement, Free Software is available under its own terms, subject to
+-which you are free to use it as you wish. For more information about
+-these open source components, see http://www.sailfishos.org.
++the open source community. The core components of our software are all
++available as open source via various projects in which we actively
++participate ("Free Software"). We encourage you to also join those projects
++and participate. Although our Software is subject to this Agreement, Free
++Software is available under its own terms, subject to which you are free
++to use it as you wish. For more information about these open source
++components, see http://www.sailfishos.org.
+ 
+ In addition to Free Software, please note that the Software can include
+ other third party software under separate licenses (which, together with
+@@ -37,8 +37,8 @@ must accept in order to be able to use them.
+ 1. Scope
+ --------
+ 
+-This is an Agreement between you and Jolla Ltd, including its affiliates
+-and suppliers (collectively referred to as "Jolla" or "we"). This
++This is an Agreement between you and Jollyboys Ltd., including its affiliates
++and suppliers (collectively referred to as "us" or "we"). This
+ Agreement sets out the terms and conditions under which you are allowed
+ to use the Software. Note that the Software is only licensed to you, it
+ is not sold. This Agreement covers the current version of the Software,
+@@ -113,13 +113,12 @@ Software or related services ("Services").
+ 4. Ownership
+ ------------
+ 
+-Jolla and Sailfish are trademarks or registered trademarks of Jolla Ltd.
+-Jolla's product names are either trademarks or registered trademarks of
+-Jolla. Our Software is protected by copyright, trademark, trade secrets
+-and other intellectual property rights of Jolla and our licensors. This
+-Agreement does not grant you any rights in our Software or our
+-intellectual property rights as such, except for your right to use the
+-Software in accordance with this Agreement.
++'Jolla' and 'Sailfish' are trademarks or registered trademarks of Jollyboys Ltd.
++Our product names are either our trademarks or registered trademarks. Our
++Software is protected by copyright, trademark, trade secrets and other
++intellectual property rights. This Agreement does not grant you any rights in
++our Software or our intellectual property rights as such, except for your right
++to use the Software in accordance with this Agreement.
+ 
+ Some of the functionality in our Software allows you to add or submit
+ your own materials into our Software or Services offered by us. We claim
+@@ -221,53 +220,19 @@ control laws.
+ 
+ Jolla Account and Services. The Software enables to register a Jolla
+ Account and access various Services. Use of the Jolla Account and any
+-Services provided by Jolla is subject to the Jolla Terms of Service, or
+-another url linked to from Jolla.com, as well as any specific terms
++Services provided by Jolla is subject to the Jolla Terms of Service, available
++at url https://jolla.com/terms-of-service/, as well as any specific terms
+ related to the service in question.
+ 
+-Jolla Maps. Use of Jolla Maps requires acceptance of the third party map
+-data provider as set forth at http://here.com/services/terms and at
+-http://here.com/services/terms#mapsAdditionalTermsDiv. By accepting this
+-Agreement, you acknowledge and accept that you have reviewed and accept
+-the third party map data provider's terms.
+-
+-Here Positioning Services.  The following terms apply specifically to
+-the use of HERE Positioning Services via the QT Location API provided in
+-Sailfish OS (referred to below as "HERE Services", whereas any results
+-provided by HERE Services are referred to as "Results"). You must not:
+-
+-- make any modifications, additions, adaptations, derivative works or
+-  alterations of or to the HERE Services and/or the Results;
+-- interfere with the performance of the HERE Services and/or the
+-  Results;
+-- complete mass downloads or bulk feeds of any content or information
+-  derived from the HERE Services and/or HERE Positioning Services;
+-- use benchmarking methods, e.g., robots, to access or analyze the HERE
+-  Services and/or the Results;
+-- alter or manipulate the HERE Services and/or the Results, or modify
+-  the default settings, operation, look and/or feel of the HERE
+-  Positioning Services (including but not limited to displayed logos,
+-  terms and notices) in any way;
+-- use the HERE Services, HERE Positioning Services and/or the Results in
+-  connection with any unlawful, offensive, obscene, pornographic,
+-  harassing, libelous or otherwise inappropriate content or material;
+-- use any data, content or materials made available by HERE not
+-  specified in this Agreement or any other agreement between the
+-  Parties; or
+-- Reverse engineer, decompile, disassemble or otherwise attempt to
+-  discover the source code of all or any portion of the HERE Services
+-  and/or HERE Positioning Services.
+-
+ 
+ 12. Applicable law and jurisdiction
+ -----------------------------------
+ 
+-In the event a dispute arises between you and us, please make a customer
+-service ticket here, so we can attempt to resolve it promptly. If we
+-cannot find an amicable solution, all disputes shall be resolved in the
+-first instance exclusively by the district court in Helsinki, Finland.
+-This Agreement shall be subject to the laws of Finland, excluding its
+-choice of law provisions.
++In the event a dispute arises between you and us, please contact Support,
++available at url https://jolla.com/support. If we cannot find an amicable
++solution, all disputes shall be resolved in the first instance exclusively
++by the district court in Helsinki, Finland. This Agreement shall be subject
++to the laws of Finland, excluding its choice of law provisions.
+ 
+ 
+ 13. General terms
+@@ -282,39 +247,3 @@ Agreement, (ii) launch, change or close down Software. When we do so, we
+ will use our reasonable efforts to notify you of what we have done. This
+ notification can happen either via our website, via the Software, or via
+ an email notice sent to your email address you gave us at registration.
+-
+-
+-14. Patent notices
+-------------------
+-
+-AVC Video. THIS PRODUCT IS LICENSED UNDER THE AVC PATENT PORTFOLIO
+-LICENSE FOR THE PERSONAL USE OF A CONSUMER OR OTHER USES IN WHICH IT
+-DOES NOT RECEIVE REMUNERATION TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE
+-AVC STANDARD ("AVC VIDEO") AND/OR (ii) DECODE AVC VIDEO THAT WAS ENCODED
+-BY A CONSUMER ENGAGED IN A PERSONAL ACTIVITY AND/OR WAS OBTAINED FROM A
+-VIDEO PROVIDER LICENSED TO PROVIDE AVC VIDEO.  NO LICENSE IS GRANTED OR
+-SHALL BE IMPLIED FOR ANY OTHER USE.  ADDITIONAL INFORMATION MAY BE
+-OBTAINED FROM MPEG LA, L.L.C.  SEE HTTP://WWW.MPEGLA.COM.
+-
+-MP4 Video. THIS PRODUCT IS LICENSED UNDER THE MPEG-4 VISUAL PATENT
+-PORTFOLIO LICENSE FOR THE PERSONAL AND NON-COMMERCIAL USE OF A CONSUMER
+-FOR (i) ENCODING VIDEO IN COMPLIANCE WITH THE MPEG-4 VISUAL STANDARD
+-("MPEG-4 VIDEO") AND/OR (ii) DECODING MPEG-4 VIDEO THAT WAS ENCODED BY A
+-CONSUMER ENGAGED IN A PERSONAL AND NON- COMMERCIAL ACTIVITY AND/OR WAS
+-OBTAINED FROM A VIDEO PROVIDER LICENSED BY MPEG LA TO PROVIDE MPEG-4
+-VIDEO. NO LICENSE IS GRANTED OR SHALL BE IMPLIED FOR ANY OTHER USE.
+-ADDITIONAL INFORMATION INCLUDING THAT RELATING TO PROMOTIONAL, INTERNAL
+-AND COMMERCIAL USES AND LICENSING MAY BE OBTAINED FROM MPEG LA, LLC. SEE
+-HTTP://WWW.MPEGLA.COM.
+-
+-MPEG Layer-3. MPEG Layer-3 audio coding technology licensed from
+-Fraunhofer IIS and Thomson Licensing. Supply of this product does not
+-convey a license nor imply any right to distribute MPEG Layer-3
+-compliant content created with this product in revenue-generating
+-broadcast systems (terrestrial, satellite, cable and/or other
+-distribution channels), streaming applications (via Internet, intranets
+-and/or other networks), other content distribution systems (pay-audio or
+-audio-on-demand applications and the like) or on physical media (compact
+-discs, digital versatile discs, semiconductor chips, hard drives, memory
+-cards and the like). An independent license for such use is required.
+-For details, please visit http://mp3licensing.com.
